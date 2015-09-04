@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+}
+
+#container {
+	width: 700px;
+	height: 500px;
+	margin: 25px auto;
+}
+
+.cell {
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	display: inline-block;
+}
