@@ -1,16 +1,44 @@
 * {
-	margin: 0;
+	line-height: 1px;
 }
 
-#container {
-	width: 700px;
-	height: 500px;
-	margin: 25px auto;
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navbar {
+	margin-top: 30px;
+}
+
+#title {
+	font-size: 35px;
+	font-family: Arial;
+}
+
+#reset {
+	height: 30px;
+	margin-top: -13px;
+	float:right;
+}
+
+#cell-container{
+	clear: both;
+	width: 800px;
+	height: 800px;
+	margin: 35px auto;
+	border: 1px solid black;
 }
 
 .cell {
-	width: 10px;
-	height: 10px;
-	border: 1px solid black;
+	width: 48px;
+	height: 48px;
+	background-color: #EEE;
+	border: 1px dashed gray;
 	display: inline-block;
+}
+
+.highlighted {
+	background-color: black;
 }
